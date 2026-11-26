@@ -49,7 +49,7 @@ The CI workflow in [`.github/workflows/ci.yml`](.github/workflows/ci.yml) trigge
 
 It executes two jobs:
 1. **`build_and_test`** (`Build, Lint & Unit Tests`):
-   - Sets up JDK 25, Android SDK, and Gradle caching.
+   - Sets up JDK 17 (for Android SDK `sdkmanager`), Android SDK, and Gradle caching (Gradle automatically provisions JDK 25 for the daemon via `gradle-daemon-jvm.properties`).
    - Builds the debug APK (`assembleDebug`).
    - Runs Android Lint (`lintDebug`).
    - Runs JUnit unit tests (`testDebugUnitTest`).
