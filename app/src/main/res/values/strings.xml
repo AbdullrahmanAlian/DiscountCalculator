@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DiscountCalculator</string>
+    <string name="title_discount_calculator">Discount Calculator</string>
+    <string name="hint_price">Original Price</string>
+    <string name="hint_discount">Discount (%)</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="result_placeholder">Final price will appear here</string>
+    <string name="result_format">Final Price: %1$s\nYou Save: %2$s</string>
+    <string name="error_empty_fields">Please enter both price and discount</string>
+    <string name="error_invalid_number">Please enter valid numbers</string>
+    <string name="error_invalid_range">Price must be &gt;= 0 and discount between 0 and 100</string>
+</resources>
